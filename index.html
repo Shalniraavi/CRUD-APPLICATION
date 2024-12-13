@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD Application</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="overlay">
+    <div class="container">
+      <h1>CRUD APPLICATION</h1>
+      <div class="form-container">
+       
+            <input class="inputs" type="text" id="name" placeholder="Enter Name">
+            <input class="inputs" type="text" id="email" placeholder="Enter Email">
+        <button onclick="addRecord()">Add</button>
+      </div>
+      <table id="dataTable">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
